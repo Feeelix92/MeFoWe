@@ -14,8 +14,18 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                // Configure your color palette here
+                // THM Farben
+                'quiz': {
+                    primary: '#74139d',
+                    secondary: '#350948',
+                    hover: '#b31df2',
+                    link: '#b31df2',
+                },
+            }
+
         },
     },
-
     plugins: [require('@tailwindcss/forms')],
 };
